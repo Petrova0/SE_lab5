@@ -1,0 +1,45 @@
+input是实验4的输入
+output是实验4的输出
+output1是实验5的输出（如果执行了程序）
+
+在我的虚拟机里，它们都在
+home/wangjingyue/LabData文件夹下,我的QT程序会用绝对路径调用它们
+（如果助教需要调试可以相应的部署一下，麻烦啦）
+
+
+wangjingyue@wangjingyue-virtual-machine:~/LabData$ tree
+.
+├── input
+│   ├── 4A
+│   │   ├── 101036360.cpp
+│   │   ├── 117364748.cpp
+│   │   ├── 127473352.cpp
+│   │   ├── 134841308.cpp
+│   │   ├── 173077807.cpp
+│   │   ├── 48762087.cpp
+│   │   ├── 84822638.cpp
+│   │   ├── 84822639.cpp
+│   │   └── stdin_format.txt
+│   └── 50A
+│       ├── 138805414.cpp
+│       ├── 142890373.cpp
+│       ├── 164831265.cpp
+│       ├── 21508887.cpp
+│       ├── 21508898.cpp
+│       ├── 21715601.cpp
+│       ├── 29019948.cpp
+│       ├── 30534178.cpp
+│       ├── 31034693.cpp
+│       ├── 33794240.cpp
+│       ├── 36641065.cpp
+│       ├── 45851050.cpp
+│       └── stdin_format.txt
+├── output
+│   ├── equal.csv
+│   └── inequal.csv
+└── output1
+    ├── doubt.csv
+    ├── equal.csv
+    └── inequal.csv
+
+5 directories, 27 files

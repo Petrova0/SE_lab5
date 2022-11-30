@@ -14,8 +14,8 @@ MainWindow::MainWindow(QWidget *parent) :
     ui->comboBox->setCurrentIndex(-1);
     ui->BtnStart->setEnabled(true);
     ui->BtnAssure->setEnabled(false);
-    ui->LabelFilename1->setText(" ");
-    ui->LabelFilename2->setText(" ");
+    ui->LabelFilename1->setText("文件1 ");
+    ui->LabelFilename2->setText("文件2 ");
 
 //信号与槽
     connect(ui->BtnStart,SIGNAL(clicked()),this,SLOT(start()));
